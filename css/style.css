@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Open Sans";
-  src: local("Open Sans"), url("/fonts/OpenSans-Regular.woff2") format("woff2"),
-    url("/fonts/OpenSans-Regular.woff") format("woff"), url("/fonts/OpenSans-Regular.ttf") format("ttf");
+  src: local("Open Sans"), url("../fonts/OpenSans-Regular.woff2") format("woff2"),
+    url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.ttf") format("ttf");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
   font-family: "Open Sans";
-  src: local("Open Sans"), url("/fonts/OpenSans-Bold.woff2") format("woff2"),
-    url("/fonts/OpenSans-Bold.woff") format("woff"), url("/fonts/OpenSans-Bold.ttf") format("ttf");
+  src: local("Open Sans"), url("../fonts/OpenSans-Bold.woff2") format("woff2"),
+    url("../fonts/OpenSans-Bold.woff") format("woff"), url("../fonts/OpenSans-Bold.ttf") format("ttf");
   font-style: bold;
   font-weight: 700;
   font-display: swap;
@@ -49,7 +49,7 @@
 
   text-align: center;
 
-  background-image: url("/images/banner-bg.jpg");
+  background-image: url("../images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -168,22 +168,22 @@
   min-height: 320px;
   padding: 15px 21px;
 
-  background-image: url("/images/trend1.jpg");
+  background-image: url("../images/trend1.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .trend-2 {
-  background-image: url("/images/trend2.jpg");
+  background-image: url("../images/trend2.jpg");
 }
 
 .trend-3 {
-  background-image: url("/images/trend3.jpg");
+  background-image: url("../images/trend3.jpg");
 }
 
 .trend-4 {
-  background-image: url("/images/trend4.jpg");
+  background-image: url("../images/trend4.jpg");
 }
 
 .trend-content {
@@ -420,7 +420,7 @@
   height: 48px;
   border: none;
 
-  background-image: url("/svg/search.svg");
+  background-image: url("../svg/search.svg");
   background-repeat: no-repeat;
   background-size: 18px 18px;
   background-position: center;
@@ -650,26 +650,26 @@
   height: 21px;
   border: none;
 
-  background-image: url("/svg/004-twitter.svg");
+  background-image: url("../svg/004-twitter.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
 }
 
 .social-link-pinterest {
-  background-image: url("/svg/001-pinterest.svg");
+  background-image: url("../svg/001-pinterest.svg");
 }
 
 .social-link-facebook {
-  background-image: url("/svg/002-facebook-logo.svg");
+  background-image: url("../svg/002-facebook-logo.svg");
 }
 
 .social-link-instagram {
-  background-image: url("/svg/005-instagram.svg");
+  background-image: url("../svg/005-instagram.svg");
 }
 
 .social-link-tumblr {
-  background-image: url("/svg/003-tumblr.svg");
+  background-image: url("../svg/003-tumblr.svg");
 }
 
 .copyright {
@@ -731,7 +731,7 @@
   font-size: 13px;
   font-weight: 400;
 
-  background-image: url("/svg/form-arrows.svg");
+  background-image: url("../svg/form-arrows.svg");
   background-repeat: no-repeat;
   background-size: 9px 17px;
   background-position: 96% center;
@@ -767,14 +767,14 @@
   width: 18px;
   height: 18px;
 
-  background-image: url("/svg/form-empty-circle.svg");
+  background-image: url("../svg/form-empty-circle.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 .mailing-input:checked + .mailing-label::before {
-  background-image: url("/svg/form-circle.svg");
+  background-image: url("../svg/form-circle.svg");
 }
 
 .opinion-textarea {
@@ -799,7 +799,7 @@
   border: none;
 
   background: none;
-  background-image: url("/svg/form-x.svg");
+  background-image: url("../svg/form-x.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
